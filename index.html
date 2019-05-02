@@ -12,18 +12,13 @@
     <p>Clicked: <span id="value">0</span> times</p>
     <button
       style="width: 90px; margin: 10px"
-      id="increment"
       onclick="store.dispatch({ type: 'INCREMENT' })"
     >
       Increment
     </button>
-    <button
-      style="width: 90px"
-      id="decrement"
-      onclick="store.dispatch({ type: 'DECREMENT' })"
-    >
+    <button style="width: 90px" onclick="store.dispatch({ type: 'DECREMENT' })">
       Decrement
     </button>
-    <script async src="/index.js"></script>
+    <script src="/index.js"></script>
   </body>
 </html>
