@@ -1,0 +1,13 @@
+{
+  "name": "project-redux",
+  "version": "1.0.0",
+  "description": "project-redux",
+  "main": "index.js",
+  "repository": "https://github.com/arifinoid/project-redux",
+  "author": "Rohmad Arifin",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "redux": "4.0.1"
+  }
+}

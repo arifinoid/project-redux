@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+    <title>Project Redux Counter</title>
+  </head>
+  <body style="display: flex; flex-direction: column; align-items: center">
+    <h1 style="margin-top:100px">Project Redux Counter</h1>
+    <p>Clicked: <span id="value">0</span> times</p>
+    <button
+      style="width: 90px; margin: 10px"
+      id="increment"
+      onclick="store.dispatch({ type: 'INCREMENT' })"
+    >
+      Increment
+    </button>
+    <button
+      style="width: 90px"
+      id="decrement"
+      onclick="store.dispatch({ type: 'DECREMENT' })"
+    >
+      Decrement
+    </button>
+    <script async src="/index.js"></script>
+  </body>
+</html>
